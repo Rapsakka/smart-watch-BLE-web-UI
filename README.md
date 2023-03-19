@@ -1,21 +1,28 @@
+## Installation
+
+Download and Install Node.js from here https://nodejs.org/en/
+
+### `npm install`
+
+Install the necessary packages
+
+### `pip install Flask Flask-SocketIO flask-cors`
+
+Necessary python modules for using the test server.py
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm install`
-Install the necessary packages
-
-### `pip install Flask Flask-SocketIO eventlet gevent`
-Necessary python modules for using the test server.py
-
 ### `python server.py`
+
 Runs the local test development server
 
 ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
 
 ### `npm run build`
 
