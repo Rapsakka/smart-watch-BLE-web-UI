@@ -14,9 +14,13 @@ Necessary python modules for using the test server.py
 
 ## Available Scripts
 
+To listen for smart watch BLE run:
+
+### `python BLE.py`
+
 In the project directory, you can run:
 
-### `python server.py`
+### `python UI.py`
 
 Runs the local test development server
 
