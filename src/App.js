@@ -36,6 +36,14 @@ function App() {
       return new Date(b.sessionStart) - new Date(a.sessionStart);
     });
 
+  useEffect(() => {
+    const interval = setInterval(() => {
+      window.location.reload();
+    }, 60000);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <div className="App">
       <header className="App-header">
